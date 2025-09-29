@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5faff; /* very light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #dbe9f4;
+}
+
+#result {
+  width: 100%;
+  height: 50px;
+  font-size: 1.6em;
+  margin-bottom: 15px;
+  text-align: right;
+  padding: 10px;
+  border: 2px solid #cfdfea;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  color: #1a2b4c;
+}
+
+.buttons button {
+  width: 60px;
+  height: 45px;
+  margin: 6px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #d0e3f0;
+  background-color: #e3f2fd; /* soft blue */
+  color: #1a2b4c;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+  background-color: #d0e7ff;
+  transform: translateY(-2px);
+}
+
+/* Operator buttons */
+.operator {
+  background-color: #dbe9f4;
+  border-color: #bcd6ea;
+  color: #0d47a1;
+}
+
+/* Equal button */
+.equal {
+  background-color: #cce5ff;
+  border-color: #99ccff;
+  color: #004085;
+}
+
+/* Clear and Backspace */
+.action {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+  width: 120px;
+}
